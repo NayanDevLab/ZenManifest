@@ -1,4 +1,11 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"d:\\\\React Native\\\\ZenManifest\" -Force)",
+      "Bash(Select-Object -Property Name, FullName)",
+      "Bash(Format-Table -AutoSize)"
+    ]
+  },
   "enabledPlugins": {
     "expo@expo-plugins": true
   }
