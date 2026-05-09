@@ -1,0 +1,12 @@
+node_modules/
+.expo/
+.claude/
+dist/
+build/
+android/
+ios/
+*.lock
+package-lock.json
+*.generated.*
+expo-env.d.ts
+nativewind-env.d.ts
