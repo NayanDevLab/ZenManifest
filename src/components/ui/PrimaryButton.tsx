@@ -26,7 +26,7 @@ export function PrimaryButton({ label, onPress, icon, disabled, style }: Primary
         colors={gradients.primary}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
-        className="h-14 flex-row items-center justify-center gap-2 rounded-card px-6"
+        style={{ height: 56, flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 8, borderRadius: 18, paddingHorizontal: 24 }}
       >
         {icon}
         <Text className="font-sans-semibold text-[15px] text-on-bright">{label}</Text>

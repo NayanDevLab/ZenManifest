@@ -26,7 +26,7 @@ export function PrimaryPillButton({ label, onPress, icon, disabled, style }: Pri
         colors={gradients.primary}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
-        className="h-[34px] flex-row items-center justify-center gap-1.5 rounded-full px-[14px]"
+        style={{ height: 34, flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 6, borderRadius: 999, paddingHorizontal: 14 }}
       >
         {icon}
         <Text className="font-sans-semibold text-[12.5px] text-on-bright">{label}</Text>

@@ -17,7 +17,7 @@ export function FilterPill({ label, active, accent, onPress }: FilterPillProps) 
           colors={accent ? [accent, accent] : gradients.primary}
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 0 }}
-          className="rounded-full px-[14px] py-[6px]"
+          style={{ borderRadius: 999, paddingHorizontal: 14, paddingVertical: 6 }}
         >
           <Text className="font-sans-semibold text-[12.5px] text-on-bright">{label}</Text>
         </LinearGradient>

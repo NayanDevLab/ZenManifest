@@ -19,7 +19,7 @@ export function Fab({ onPress, icon = "plus", style }: FabProps) {
         colors={gradients.primary}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
-        className="h-14 w-14 items-center justify-center rounded-fab"
+        style={{ height: 56, width: 56, alignItems: "center", justifyContent: "center", borderRadius: 20 }}
       >
         <Icon name={icon} size={22} color={colors.onBright} strokeWidth={2.2} />
       </LinearGradient>

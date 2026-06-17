@@ -6,7 +6,7 @@ import { TabBarButton } from "@/components/navigation/TabBarButton";
 import type { IconName } from "@/components/ui/Icon";
 
 const TABS: { name: string; href: Href; label: string; icon: IconName }[] = [
-  { name: "index", href: "/", label: "Home", icon: "home" },
+  { name: "home", href: "/home", label: "Home", icon: "home" },
   { name: "ftba", href: "/ftba", label: "FTBA", icon: "ftba" },
   { name: "practice", href: "/practice", label: "Practice", icon: "practice" },
   { name: "vision", href: "/vision", label: "Vision", icon: "vision" },
