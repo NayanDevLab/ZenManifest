@@ -41,3 +41,10 @@ example
 # generated native folders
 /ios
 /android
+
+# lint/format caches
+.eslintcache
+.prettiercache
+
+# design files (not pushed to github)
+design/
